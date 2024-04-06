@@ -1,11 +1,13 @@
-#top {width: 800px;background-color: #dcc9f4;text-align:center;}
 
 
-.top-child{width: 20%;background-color: #ffd9df;display: inline-block;margin-top: 20px;
-  margin-bottom:20px;}
+#top {width: 800px;background-color: #dcc9f4;text-align:center;margin-top: 20px;
+  margin-bottom:20px;margin: 20px auto}
 
 
-  #middle{width:800px;height:800px;margin-top:20px;margin-bottom:20px;text-align:center;background-color:#ffd9df  ;position: relative;
+.top-child{width: 20%;background-color: #ffd9df;display: inline-block;}
+
+
+  #middle{width:800px;height:800px;text-align:center;background-color:#ffd9df  ;position: relative;margin: 20px auto;
   }
 
 
@@ -17,7 +19,7 @@
   #middle-child03{width: 200px;height: 200px;background-color:#87ceeb ;position: absolute;top:500px;position: absolute;left: 500px;}
 
 
-  #bottom{width: 800px;height: 300px;text-align: center;background-color: #87ceeb;}
+  #bottom{width: 800px;height: 300px;text-align: center;background-color: #87ceeb;margin: auto;}
 
 
   #bottom-child01{width: 400px;height: 100px;background-color: #e5dcf0;}
